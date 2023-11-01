@@ -14,6 +14,7 @@
     --white: hsla(0, 0%, 100%, 0.75);
     --light-gray: hsl(0, 0%, 95%);
     --font-size: 15px;
+    --transition: 450ms ease all; 
 }
 
 body {
@@ -57,18 +58,23 @@ body {
     color: var(--very-dark-cyan);
   }
 
-  .btn:hover {
-    background: var(--white);
-    box-shadow: var(--shadow-3);
+  .sedan-btn:hover {
+    color: var(--white);
+    border: 1px solid var(--white);
+    background: var(--primary-orange);
   }
-  .btn-hipster {
-    color: var(--primary-500);
-    background: var(--primary-200);
+
+  .suv-btn:hover {
+    color: var(--white);
+    border: 1px solid var(--white);
+    background: var(--dark-cyan);
   }
-  .btn-hipster:hover {
-    color: var(--primary-200);
-    background: var(--primary-700);
+  .lux-btn:hover {
+    color: var(--white);
+    border: 1px solid var(--white);
+    background: var(--very-dark-cyan);
   }
+  
   .btn-block {
     width: 100%;
   }
