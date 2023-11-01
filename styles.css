@@ -93,7 +93,9 @@ body {
   }
 
   .card > p {
-    color: var(--white)
+    color: var(--white);
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
   }
 
   .card > h2 {
@@ -121,7 +123,7 @@ body {
       width: 375px;
       border-radius: 0.5rem;
       grid-template-columns: minmax(300px, 1fr);
-      grid-template-rows: repeat(3, 400px);
+      grid-template-rows: repeat(3, 425px);
     }
     .sedan {
       border-radius: 0.5rem 0.5rem 0 0;
@@ -130,5 +132,7 @@ body {
     .luxury {
       border-radius: 0 0 0.5rem 0.5rem;
     }
+
+    
 
   }
